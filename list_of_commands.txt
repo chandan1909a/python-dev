@@ -1,0 +1,38 @@
+   1 mkdir python-dev-program
+   3 cd .\python-dev-program\
+   4 git init -y
+   5 git init
+   6 vi firstfile.txt
+   7 notepad firstfile.txt
+   8 git add .
+   9 git commit -m 'First file commit done'
+  10 git branch
+  12 git push -u origin master
+  13 git origin
+  14 git remote add origin https://github.com/chandan1909a/python-dev.git
+  15 git remote remove
+  16 git remote remove origin
+  17 git remote add origin https://github.com/chandan1909a/python-dev.git
+  18 git branch -M master
+  19 git push -u origin main
+  20 git push -u origin master
+  21 git checkout develop
+  22 git checkout -b develop
+  23 notepad .\firstfile.txt
+  24 git add
+  25 git add .
+  26 git commit -m 'Second commit'
+  27 git push
+  28     git push --set-upstream origin develop
+  29 cd ..
+  30 git clone https://github.com/chandan1909a/python-dev.git
+  31 git checkout develop
+  32 cd python-dev\
+  33 git checkout develop
+  34 git checkout -b top-of-develop
+  35 notepad .\firstfile.txt
+  36 git add .
+  37 git commit -m 'third commit'
+  38 git push
+  39     git push --set-upstream origin top-of-develop
+  40 git checkout develop
